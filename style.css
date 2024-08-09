@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    background: #201f1fcf;
+    margin: 20px;
+    background-image: url(https://wallpaperaccess.com/full/1968257.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-blend-mode: multiply;
+}
+
+svg {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+span {
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    opacity: .3;
+}
+
+.score {
+    color: rgb(255, 204, 0);
+    text-align: center;
+}
+h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight:bolder;
+    
+}
+
+.count {
+    color: rgb(255, 255, 255);
+}
+
+.highscore {
+    color: #00defb;
+    text-align: center;
+}
